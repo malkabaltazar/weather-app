@@ -1,0 +1,20 @@
+body {
+  background-color: skyblue;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 75vw;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.weather {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h1 {
+  grid-column: 1 / -1;
+}

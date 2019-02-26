@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <label>Search:</label>
+        <input type="text" id="ajax" list="json-datalist" placeholder="input city and press enter">
+        <datalist id="json-datalist"></datalist><br>
+        <label>Fahrenheit:</label>
+        <input id="imperial" type="radio" name="unit" value="fahrenheit">
+        <label>Celsius:</label>
+        <input id="metric" type="radio" name="unit" value="celsius">
+      </div>
+
+      <div class="weather">
+        <h1 id="city">City, country</h1>
+        <div class="">
+          <h3>Description:</h3>
+          <span id="description"></span>
+        </div>
+        <div class="">
+          <h3>Temp:</h3>
+          <span id="temp"></span>
+        </div>
+        <div class="">
+          <h3>Clouds:</h3>
+          <span id="clouds"></span>
+        </div>
+        <div class="">
+          <h3>Icon:</h3>
+          <span id="icon"></span>
+        </div>
+        <div class="">
+          <h3>Humidity:</h3>
+          <span id="humidity"></span>
+        </div>
+        <div class="">
+          <h3>Pressure:</h3>
+          <span id="pressure"></span>
+        </div>
+        <div class="">
+          <h3>Temp max:</h3>
+          <span id="max"></span>
+        </div>
+        <div class="">
+          <h3>Temp min:</h3>
+          <span id="min"></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
